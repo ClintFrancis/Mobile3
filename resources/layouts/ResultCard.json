@@ -1,0 +1,74 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"body": [
+		{
+			"type": "Container",
+			"speak": "<s>Analyse an image</s>",
+			"items": [
+				{
+					"type": "ColumnSet",
+					"columns": [
+						{
+							"type": "Column",
+							"size": "auto",
+							"items": [
+								{
+									"type": "Image",
+									"url": "http://via.placeholder.com/300x300",
+									"size": "small",
+									"style": "icon"
+								}
+							]
+						},
+						{
+							"type": "Column",
+							"size": "stretch",
+							"items": [
+								
+                				{
+                					"type": "TextBlock",
+                					"text": "Analyse an image",
+                					"weight": "bolder",
+                					"size": "large"
+                				}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Container",
+			"items": [
+				{
+					"type": "TextBlock",
+					"text": "Check the likelihood that two faces belong to the same person. The API will return a confidence score of how likely it is that the two faces belong to one person.",
+					"speak": "Check the likelihood that two faces belong to the same person. The API will return a confidence score of how likely it is that the two faces belong to one person.",
+					"wrap": true
+				},
+				{
+					"type": "FactSet",
+					"speak": "",
+					"facts": [
+						{
+							"title": "API:",
+							"value": "Computer Vision API"
+						},
+						{
+							"title": "Category:",
+							"value": "Vision"
+						}
+					]
+				}
+			]
+		}
+	],
+	"actions": [
+		{
+			"type": "Action.OpenUrl",
+			"title": "View Documentation",
+			"url": "http://microsoft.com"
+		}
+	]
+}
