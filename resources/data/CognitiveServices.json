@@ -1,6 +1,6 @@
 [
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Analyse an image",
 		"Api": "Computer Vision API",
@@ -8,7 +8,7 @@
         "Description": "This feature returns information about visual content found in an image. Use tagging, descriptions and domain-specific models to identify content and label it with confidence. Apply the adult/racy settings to enable automated restriction of adult content. Identify image types and colour schemes in pictures."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Read text in images",
 		"Api": "Computer Vision API",
@@ -16,7 +16,7 @@
         "Description": "Optical character recognition (OCR) detects text in an image and extract the recognised words into a machine-readable character stream. Analyse images to detect embedded text, generate character streams and enable searching. Take photos of text instead of copying to save time and effort."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Read handwritten text from images",
 		"Api": "Computer Vision API",
@@ -24,7 +24,7 @@
         "Description": "This technology (handwritten OCR) allows you to detect and extract handwritten text from notes, letters, essays, whiteboards, forms etc. It works with different surfaces and backgrounds, such as white paper, yellow sticky notes and whiteboards. Handwritten text recognition saves time and effort and can make you more productive by allowing you to take images of text, rather than having to transcribe it. It makes it possible to digitise notes, which then allows you to implement quick and easy search. It also reduces paper clutter."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Recognise celebrities and landmarks",
 		"Api": "Computer Vision API",
@@ -32,7 +32,7 @@
         "Description": "The celebrity and landmark models are examples of domain-specific models. Our celebrity recognition model recognises 200,000 celebrities from business, politics, sports and entertainment. Our landmark recognition model recognises 9000 natural and man-made landmarks from around the world. Domain-specific models is a continuously evolving feature within Computer Vision API."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Analyse video in near real-time",
 		"Api": "Computer Vision API",
@@ -40,7 +40,7 @@
         "Description": "Analyse video in near real time. Use any of the Computer Vision APIs with you video files by extracting frames of the video from your device and then sending those frames to the API calls of your choice. Get results from your videos more quickly."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/computer-vision/",
         "Name": "Generate a thumbnail",
 		"Api": "Computer Vision API",
@@ -48,7 +48,7 @@
         "Description": "Generate a high-quality storage-efficient thumbnail based on any input image. Use thumbnail generation to modify images to best suit your needs for size, shape and style. Apply smart cropping to generate thumbnails that differ from the aspect ratio of your original image, yet preserve the region of interest."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "face.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/face/",
         "Name": "Face verification",
 		"Api": "Face API",
@@ -56,7 +56,7 @@
         "Description": "Check the likelihood that two faces belong to the same person. The API will return a confidence score of how likely it is that the two faces belong to one person."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "face.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/face/",
         "Name": "Face detection",
 		"Api": "Face API",
@@ -64,7 +64,7 @@
         "Description": "Detect one or more human faces in an image and get back face rectangles for where in the image the faces are, along with face attributes that contain machine learning-based predictions of facial features. The face attribute features available are: Age, Emotion, Gender, Pose, Smile and Facial Hair, along with 27 landmarks for each face in the image."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "face.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/face/",
         "Name": "Face identification",
 		"Api": "Face API",
@@ -72,7 +72,7 @@
         "Description": "Search and identify faces. Tag people and groups with user-provided data and then search those for a match with previously unseen faces."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "face.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/face/",
         "Name": "Similar face search",
 		"Api": "Face API",
@@ -80,7 +80,7 @@
         "Description": "Easily find similar-looking faces. Given a collection of faces and a new face as a query, this API will return a collection of similar faces."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "face.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/face/",
         "Name": "Face grouping",
 		"Api": "Face API",
@@ -88,7 +88,7 @@
         "Description": "Organise many unidentified faces together into groups, based on their visual similarity."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "contentmoderator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/content-moderator/",
         "Name": "Image moderation",
 		"Api": "Content moderator",
@@ -96,7 +96,7 @@
         "Description": "Enhance your ability to detect potentially offensive or unwanted images through machine-learning based classifiers, custom blacklists and optical character recognition (OCR)."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "contentmoderator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/content-moderator/",
         "Name": "Text moderation",
 		"Api": "Content moderator",
@@ -104,7 +104,7 @@
         "Description": "Helps you detect potential profanity in more than 100 languages and match text against your custom lists automatically. Content Moderator also checks for possible personally identifiable information (PII)."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "contentmoderator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/content-moderator/",
         "Name": "Video moderation",
 		"Api": "Content moderator",
@@ -112,7 +112,7 @@
         "Description": "Enable the scoring of possible adult content in videos. Video moderation is currently deployed in preview on Azure Media Services."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "contentmoderator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/content-moderator/",
         "Name": "Human review tool",
 		"Api": "Content moderator",
@@ -120,7 +120,7 @@
         "Description": "Humans can effectively augment machine learning models in situations where the prediction confidence warrants assistance or when decisions must be tempered with a real-world context. Enjoy visibility, flexibility and control with a human review tool that supervises the results of your algorithms."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "emotion.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/emotion/",
         "Name": "Recognise emotions in images",
 		"Api": "Emotion API",
@@ -128,7 +128,7 @@
         "Description": "The Emotion API takes a facial expression in an image as an input, and returns the confidence across a set of emotions for each face in the image, as well as bounding box for the face, using the Face API. If a user has already called the Face API, they can submit the face rectangle as an optional input. The emotions detected are anger, contempt, disgust, fear, happiness, neutral, sadness and surprise. These emotions are understood to be communicated universally across cultures with particular facial expressions."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "emotion.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/emotion/",
         "Name": "Recognise emotions in video",
 		"Api": "Emotion API",
@@ -136,7 +136,7 @@
         "Description": "The Emotion API for Video recognises the facial expressions of people in a video, and returns a summary of their emotions. You can use this API to track how a person or a crowd responds to your content over time. The emotions detected are anger, contempt, disgust, fear, happiness, neutral, sadness and surprise. Recognise emotions in near real time by extracting frames of a video and then sending those frames to the API calls of your choice."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Stabilise shaky videos",
 		"Api": "Video API",
@@ -144,7 +144,7 @@
         "Description": "Automatically smooth and stabilise shaky videos using many of the same technologies found in Microsoft Hyperlapse."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Detect and track faces",
 		"Api": "Video API",
@@ -152,7 +152,7 @@
         "Description": "Analyse videos with high-precision face location detection and tracking to detect up to 64 human faces in a video."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Detect motion",
 		"Api": "Video API",
@@ -160,7 +160,7 @@
         "Description": "Detect when motion has occurred in videos with stationary backgrounds. This service will analyse the video input and output metadata on which frames motion is detected, and define the exact coordinates where motion occurred. Select between three sensitivity levels – low, medium and high – to control the granularity of motion you want detected, and merge thresholds to combine multiple motion events into one."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Generate video thumbnails",
 		"Api": "Video API",
@@ -168,7 +168,7 @@
         "Description": "Automatically create a motion thumbnail summary to let people quickly preview your video. The most representative scenes from the original video are selected to create a high-quality thumbnail."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Analyse in near-real time",
 		"Api": "Video API",
@@ -176,7 +176,7 @@
         "Description": "You can use the Face, Emotion and Computer Vision APIs with your video file or live-stream today by extracting frames of the video from your device and then sending those frames to the API calls of your choice. Get results from your videos more quickly."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "customvision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/",
         "Name": "Custom Vision Service",
 		"Api": "Custom Vision Service",
@@ -184,7 +184,7 @@
         "Description": "Easily customise your own state-of-the-art computer vision models for your unique use case. Just upload a few labelled images and let Custom Vision Service do the hard work."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "videoindexer.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-indexer/",
         "Name": "Video Indexer",
 		"Api": "Video Indexer",
@@ -192,7 +192,7 @@
         "Description": "Start turning your video into insights right away. No more tedious and error-prone manual indexing. And no need for specialised expertise. With Video Indexer, just upload your video, and start finding insights right away, without writing a single line of code. Quickly and easily extract insights from videos using artificial intelligence. Enhance content discovery experiences such as search results by detecting spoken words, faces, characters and emotions. When Video Indexer sees, hears or detects what you’re looking for, it can set off an automated chain of business processes, without manual intervention. So you can create workflows and automate your downstream tasks easily using the scale and breadth of Azure."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "translator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/translator-speech-api/",
         "Name": "Translator Speech API",
 		"Api": "Translator Speech API",
@@ -200,7 +200,7 @@
         "Description": "Microsoft Translator Speech API is a cloud-based automatic translation service. The API enables developers to add end-to-end, real-time speech translations to their applications or services."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "speechrecognition.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/speaker-recognition/",
         "Name": "Speaker Verification",
 		"Api": "Speaker Recognition API",
@@ -208,7 +208,7 @@
         "Description": "Use your voice for verification. The API can be used to power applications with an intelligent verification tool. If the speaker claims to be of a certain identity, use voice to verify this claim."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "speechrecognition.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/speaker-recognition/",
         "Name": "Speaker Identification",
 		"Api": "Speaker Recognition API",
@@ -216,7 +216,7 @@
         "Description": "Identify who is speaking. The API can be used to determine the identity of an unknown speaker. Input audio of the unknown speaker is paired against a group of selected speakers, and if a match is found, the speaker’s identity is returned."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingspeech.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/speech/",
         "Name": "Speech Recognition",
 		"Api": "Bing Speech API",
@@ -224,7 +224,7 @@
         "Description": "Convert spoken audio to text. The API can be directed to turn on and recognise audio coming from the microphone in real time, recognise audio coming from a different real-time audio source or recognise audio from within a file. In all cases, real-time streaming is available, so that, as the audio is being sent to the server, partial recognition results are also being returned."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingspeech.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/speech/",
         "Name": "Text to Speech",
 		"Api": "Bing Speech API",
@@ -232,7 +232,7 @@
         "Description": "Convert text to spoken audio. When applications need to “talk” back to their users, this API can be used to convert text that is generated by the app into audio that can be played back to the user."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "customspeech.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/custom-speech-service/",
         "Name": "Custom Speech Service",
 		"Api": "Custom Speech Service",
@@ -240,7 +240,7 @@
         "Description": "Overcome speech recognition barriers such as speaking style, vocabulary and background noise. Customise the language model of the speech recogniser by tailoring it to the vocabulary of the application and the speaking style of your users. Customise the acoustic model of the speech recogniser to better match the expected environment and user population of your application. Deploy your models to create a speech recognition endpoint that’s customised to your application. Send requests to your custom endpoint using RESTful API or the cognitive services speech client library."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "luis.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/language-understanding-intelligent-service/",
         "Name": "LUIS",
 		"Api": "Language Understanding Intelligent Service",
@@ -248,7 +248,7 @@
         "Description": "One of the key problems in human-computer interactions is the ability of the computers to understand what a person wants and find the pieces of information that are relevant to his or her intention. Our Language Understanding intelligent service, LUIS, provides simple tools that enable you to build your own language models (intents or entities) that allow any application or bot to understand your commands and act accordingly."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "textanalytics.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/text-analytics/",
         "Name": "Sentiment analysis",
 		"Api": "Text Analytics API",
@@ -256,7 +256,7 @@
         "Description": "The API returns a numeric score between 0 and 1. Scores close to 1 indicate a positive sentiment, and scores close to 0 indicate a negative sentiment. The sentiment score is generated using classification techniques. The input features of the classifier include n-grams, features generated from part-of-speech tags and word embeds."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "textanalytics.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/text-analytics/",
         "Name": "Key phrase extraction",
 		"Api": "Text Analytics API",
@@ -264,7 +264,7 @@
         "Description": "The API returns a list of strings denoting the key talking points in the input text. We employ techniques from Microsoft Office’s sophisticated Natural Language Processing toolkit. English, German, Spanish and Japanese text is supported."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "textanalytics.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/text-analytics/",
         "Name": "Topic detection",
 		"Api": "Text Analytics API",
@@ -272,7 +272,7 @@
         "Description": "This is a newly released API that returns the detected topics for a list of submitted text records. A topic is identified with a key phrase, which can be one or more related words. This API requires a minimum of 100 text records to be submitted, but is designed to detect topics across hundreds to thousands of records. Note that this API charges 1 transaction per text record submitted. The API is designed to work well for short, human-written text such as reviews and user feedback."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "textanalytics.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/text-analytics/",
         "Name": "Language detection",
 		"Api": "Text Analytics API",
@@ -280,7 +280,7 @@
         "Description": "The API returns the detected language and a numeric score between 0 and 1. Scores close to 1 indicate with 100% certainty that the identified language is true. A total of 120 languages are supported."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingspellcheck.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/spell-check/",
         "Name": "Bing Spell Check",
 		"Api": "Bing Spell Check API",
@@ -288,7 +288,7 @@
         "Description": "Correct word-breaking issues with a single flag. Easily recognise slang and informal language. Spot common name errors in context. Fix homonyms and other hard-to-spot errors in context. Provide support for new brands and other coined expressions as they emerge."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "translator.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/translator-text-api/",
         "Name": "Translator Text",
 		"Api": "Translator Text API",
@@ -296,7 +296,7 @@
         "Description": "Microsoft Translator Text API is a cloud-based machine translation service supporting multiple languages that reach more than 95% of the world’s gross domestic product. Translator can be used to build applications, websites, tools or any solution requiring multi-language support. Detect the language of any text string easily and accurately, simplifying development processes and allowing you to quickly send it for translation or serve localised content. Customise your text translations with the Hub (statistical machine translation systems only) using previous translations to build a system reflecting your needs or starting with a dictionary of specific words. Improve translations by creating a specific user group that provides suggestions and designated approvers who verify inclusion using the Collaborative Translation Framework (CTF)."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "weblanguagemodel.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/web-language-model/",
         "Name": "Web Language Model",
 		"Api": "Web Language Model API",
@@ -304,7 +304,7 @@
         "Description": "Automate a variety of standard, natural language processing tasks using state-of-the-art language modelling APIs. Using Joint probabilities you can calculate how often a particular sequence of words appear together. Conditional probabilities use a sequence of words to calculate how often a particular word tends to follow. Next word completions provides a list of words that are most likely to follow."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "linguisticanalysis.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/linguistic-analysis-api/",
         "Name": "Linguistic Analysis",
 		"Api": "Linguistic Analysis API",
@@ -312,7 +312,7 @@
         "Description": "You know what your users are saying, but do you know what it means? The Linguistic API uses advanced linguistic analysis tools for natural language processing, giving you access to part-of-speech tagging and parsing. These tools allow you to hone in on important concepts and actions. Sentence separation and tokenisation: Given a body of text, one of the first steps in analysis is to break it down into sentences and tokens. Part-of-speech tagging: When your text has been split into tokens, you can find the nouns (entities, people, places, things etc.), verbs (actions, changes of state) and more using part-of-speech tagging. Constituency parsing: Determine the internal structure and meaning of a sentence (entities, purpose etc.) by breaking it into labelled phrases. This helps you understand who is doing what to whom."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "recommendations.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/recommendations/",
         "Name": "Recommendations",
 		"Api": "Recommendations API",
@@ -320,7 +320,7 @@
         "Description": "Learn from previous transactions to predict which items are more likely to be of interest to or purchased by your customers. Built using Azure Machine Learning, the Recommendations engine uses customer data (either past customer activity that you’ve uploaded or data collected directly from your digital shop) to offer recommended items for your customers and increase conversion rates. Automatically recommend items on your product page that are likely to be consumed together in the same transaction. Increase discoverability by learning from click patterns to increase your product catalogue’s discoverability and boost sales. Personalise recommendations using the purchase history of a particular customer to provide recommendations unique to that customer and personalise their experience."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "academicknowledge.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/academic-knowledge/",
         "Name": "Academic Knowledge",
 		"Api": "Academic Knowledge API",
@@ -328,7 +328,7 @@
         "Description": "Tap into the wealth of academic content in the Microsoft Academic Graph using the Academic Knowledge API. Interpret natural language user query strings and return annotated interpretations to enable rich search-box auto-completion experiences that anticipate what the user is typing. Evaluate query expression and return Academic Knowledge entity results. Calculate histograms of the distribution of attribute values for academic entities returned by a query expression, such as the distribution of citations by year for a given author. Calculate the academic cosine similarity between two text inputs. Not only assesses the similarity of words but also concepts of the related texts. Search for a given graph pattern and return the matched entity results. Graph patterns can be specified by JSON objects or lambda expressions."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "knowledgeexplorationservice.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/knowledge-exploration-service/",
         "Name": "Knowledge Exploration Service",
 		"Api": "Knowledge Exploration Service",
@@ -336,7 +336,7 @@
         "Description": "Enable interactive search experiences over structured data via natural language inputs. Use Natural Language Understanding to interpret natural language queries as structured query expressions. Query Auto-completion reduces user effort and help with the discovery of rich capabilities. Structured Query Evaluation efficiently retrieves detailed information about matching objects. Attribute Histograms enable rich visualisations and interactive faceted experiences."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "qnamaker.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/qna-maker/",
         "Name": "QnA Maker",
 		"Api": "QnA Maker API",
@@ -344,7 +344,7 @@
         "Description": "Distill information into an easy-to-navigate FAQ. QnA Maker extracts all possible pairs of questions and answers from user-provided content: FAQ URLs, documents and editorial content. It's easy to Test, train and publish your knowledge base as an API endpoint. The QnA Maker integrates with other APIs seamlessly and at scale. Use QnA Maker with Cognitive Services such as the Language Understanding Intelligent Service and create something as elegantly simple as a chat bot that answers FAQs, or as complex as an interactive virtual guide."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "entitylinking.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/entity-linking-intelligence-service/",
         "Name": "Entity Linking Intelligence Service",
 		"Api": "Entity Linking Intelligence Service API",
@@ -352,7 +352,7 @@
         "Description": "Power your app’s data links with named entity recognition and disambiguation. In different contexts, a word might be used as a named entity, verb or another word form within a given sentence. For example, in cases where “times” is a named entity, it may refer to two separately distinguishable entities, such as “The Sunday Times” or “Times Square”. Given a specific paragraph of text within a document, the Entity Linking Intelligence Service will recognise and identify each separate entity based on the context."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "customdecision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/custom-decision-service/",
         "Name": "Custom Decision Service",
 		"Api": "Custom Decision Service",
@@ -360,7 +360,7 @@
         "Description": "A cloud-based, contextual decision-making API that sharpens with experience, so it’s easy to run and plug into your application, and make decisions in real time. . Understanding context from information you provide, the Custom Decision Service ranks the options and makes a decision. The Custom Decision Service automatically optimises based on your feedback. It even experiments with new options to see if the best decision has changed, enabling it to adjust to emerging trends."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingautosuggest.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/autosuggest/",
         "Name": "Bing Autosuggest",
 		"Api": "Bing Autosuggest API",
@@ -368,7 +368,7 @@
         "Description": "Help users complete queries faster by adding intelligent type-ahead capabilities to your app or website. Empower users to type less and do more with automated and complete search suggestions."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingimagesearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-image-search-api/",
         "Name": "Bing Image Search",
 		"Api": "Bing Image Search API",
@@ -376,7 +376,7 @@
         "Description": "Add a variety of image search options to your app or website, from trending images to detailed insights. Image metadata includes machine-generated captions, visually similar images, shopping and recipe sources, related image searches and more. Image search filters allow you to narrow search results with filters, including image type, layout, freshness, license as well as customise a search for trending images from around the world."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingnewssearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-news-search-api/",
         "Name": "Bing News Search",
 		"Api": "Bing News Search API",
@@ -384,7 +384,7 @@
         "Description": "Turn any app or website into a news search resource with world news grouped and filtered by topic, local news and searchable metadata. Customise trending news from around the world by category and region and categorise news searches by topics, such as World, Politics, Sport and more."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingvideosearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-video-search-api/",
         "Name": "Bing Video Search",
 		"Api": "Bing Video Search API",
@@ -392,7 +392,7 @@
         "Description": "Add a variety of advanced video search features to your app or website, including video previews, trending videos and other useful metadata. Harness useful metadata about videos, such as publisher and creator info, encoding format, source view count, video length, quality and more. Get visually enriched search results that include a static or motion (animated GIF) thumbnail. Narrow results by freshness, video length, resolution and price and customise a feed of trending videos from around the world."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingwebsearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-web-search-api/",
         "Name": "Bing Web Search",
 		"Api": "Bing Web Search API",
@@ -400,7 +400,7 @@
         "Description": "Bring intelligent search to your apps and harness the ability to comb billions of web pages, images, videos and news stories with a single API call. Search results and answers can be ranked and arranged to fit your layout. Use relevant Bing answers, including image, video, news, calculator and time zone. Results are customised to the location or market of the user. The location or market can be determined implicitly (via IP address) or configured explicitly. Customise the safe-search level of the results. Response also includes an adult intent flag, specified as a true or false value. Get spelling suggestions for queries when Bing is confident of a misspelling. Help users discover more search options with a list of related queries."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingcustomsearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-custom-search/",
         "Name": "Bing Custom Search",
 		"Api": "Bing Custom Search",
@@ -408,7 +408,7 @@
         "Description": "Leverage Bing Custom Search to build a search that fits your needs with powerful ranking, a global-scale search index and document processing. Setup is easy and fast. The core technology works in three steps: it identifies on-topic sites, applies the Bing ranker and delivers relevant search results while allowing you to adjust the parameters at any time. Quickly and reliably define the slices of the web that you want to draw from. Change the parameters of the sites you want and don’t want at any time. Explore site suggestions to intelligently expand the scope of your search domain. Usage is advert-free – no matter how much or how little of the service you use."
 	},
 	{
-		"imageURL": "http://via.placeholder.com/300x250",
+		"imageURL": "bingentitysearch.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/bing-entity-search-api/",
         "Name": "Bing Entity Search",
 		"Api": "Bing Entity Search API",
