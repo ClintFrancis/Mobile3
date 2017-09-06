@@ -176,7 +176,7 @@
         "Description": "You can use the Face, Emotion and Computer Vision APIs with your video file or live-stream today by extracting frames of the video from your device and then sending those frames to the API calls of your choice. Get results from your videos more quickly."
 	},
 	{
-		"imageURL": "customvision.png",
+		"imageURL": "computervision.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/",
         "Name": "Custom Vision Service",
 		"Api": "Custom Vision Service",
