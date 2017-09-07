@@ -128,14 +128,6 @@
         "Description": "The Emotion API takes a facial expression in an image as an input, and returns the confidence across a set of emotions for each face in the image, as well as bounding box for the face, using the Face API. If a user has already called the Face API, they can submit the face rectangle as an optional input. The emotions detected are anger, contempt, disgust, fear, happiness, neutral, sadness and surprise. These emotions are understood to be communicated universally across cultures with particular facial expressions."
 	},
 	{
-		"imageURL": "emotion.png",
-		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/emotion/",
-        "Name": "Recognise emotions in video",
-		"Api": "Emotion API",
-        "Category": "Vision",
-        "Description": "The Emotion API for Video recognises the facial expressions of people in a video, and returns a summary of their emotions. You can use this API to track how a person or a crowd responds to your content over time. The emotions detected are anger, contempt, disgust, fear, happiness, neutral, sadness and surprise. Recognise emotions in near real time by extracting frames of a video and then sending those frames to the API calls of your choice."
-	},
-	{
 		"imageURL": "video.png",
 		"documentationURL": "https://azure.microsoft.com/en-gb/services/cognitive-services/video-api/",
         "Name": "Stabilise shaky videos",
