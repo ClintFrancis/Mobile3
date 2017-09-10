@@ -24,7 +24,7 @@ namespace CognitiveServicesBot.Dialogs
 
 		public virtual async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> result)
 		{
-			var messageToForward = await result;
+			var message = await result;
 
 			//await context.PostAsync("Hold on one second!");
 
@@ -35,23 +35,20 @@ namespace CognitiveServicesBot.Dialogs
 				await context.PostAsync($"I've found some information on '{model.SearchTerm}'");
 
 				ProductModel.SetContextData(context, model);
-				await context.Forward(new ServiceExploreDialog(), AfterDialog, messageToForward, CancellationToken.None);
+				await context.Forward(new ServiceExploreDialog(), AfterDialog, message, CancellationToken.None);
 			}
 
 			else
 			{
 				var results = await searchService.Search(model.SearchTerm);
+				var channelID = message.ChannelId;
 
 				if (results.value.Length > 0)
 				{
 					List<Attachment> attachments = new List<Attachment>();
 					for (int i = 0; i < results.value.Length; i++)
 					{
-						Attachment attachment = new Attachment()
-						{
-							ContentType = AdaptiveCard.ContentType,
-							Content = CardUtil.CreateFeatureCard(results.value[i])
-						};
+						var attachment = CardUtil.CreateCardAttachment(channelID, results.value[i]);
 						attachments.Add(attachment);
 					}
 

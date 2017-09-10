@@ -26,14 +26,9 @@ namespace CognitiveServicesBot.Dialogs
 		{
 			var message = await result;
 			var model = ProductModel.GetContextData(context);
-
 			var value = await searchService.GetFeature(model.Feature);
-
-			Attachment attachment = new Attachment()
-			{
-				ContentType = AdaptiveCard.ContentType,
-				Content = CardUtil.CreateFeatureCard(value)
-			};
+			var channelID = message.ChannelId;
+			var attachment = CardUtil.CreateCardAttachment(channelID, value);
 
 			var reply = context.MakeMessage();
 			reply.Attachments.Add(attachment);
