@@ -1,4 +1,6 @@
 # QnA Bot Tutorial
+
+<br/>
 This is a quick tutorial where we'll create and publish a new intelligent Bot that uses machine learning and natural language understanding to answer questions about Microsoft Bot Framework.  Then we'll create a native iOS and Android app to interact with our bot.  Let's get started!
 
 <br/>
@@ -154,3 +156,7 @@ Finally, build and run the app on the iOS Simulator and interact with your bot:
 - Type `What's the Direct Line channel?` and press return  
 
 ![screenshot](images/qa-bot-sample-26.png)
+
+---
+## Authors
+- Colby Williams - [Original Post](http://www.colbylwilliams.com/2017/05/18/intelligent-bot-in-a-native-ios-and-android-app.html)

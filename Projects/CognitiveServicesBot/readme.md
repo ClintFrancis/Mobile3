@@ -823,3 +823,7 @@ Finally we have our custom search bot up we can add additional channels for our 
 ![](images/9_01_Bot_Complete.png)
 
 ![](images/9_02_Bot_Complete.png)
+
+---
+## Authors
+- Clint Francis - [Github](https://github.com/clintfrancis)
