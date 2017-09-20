@@ -16,9 +16,7 @@ We’ll be using Azure Bot Service, so you’ll need an Azure account. If you do
 
 [Create or login](https://dev.botframework.com/login?requestUrl=%2F) to your [Microsoft Bot Framework](https://dev.botframework.com/) account. Even if you already have an account, make sure to login, as it’ll simplify setting up your bot in Azure.
 
-***
 # Chapters
-***
 
 - [CosmosDB](CosmosDB.md)
 - [Azure Search](AzureSearch.md)
@@ -32,6 +30,5 @@ After following the guide you'll have your own custom search bot set up. You can
 
 ![](images/9_01_Bot_Complete.png)
 
----
-## Authors
+# Authors
 - Clint Francis - [Github](https://github.com/clintfrancis)
