@@ -1,0 +1,820 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "ServicesBot",
+  "desc": "A bot for answering questions about the Microsoft Cognitive Services",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "services.help"
+    },
+    {
+      "name": "services.search"
+    }
+  ],
+  "entities": [
+    {
+      "name": "cognitiveservice.help"
+    },
+    {
+      "name": "cognitiveservice.product"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "hi there",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "test",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "can you help me?",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "what do i do?",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "hello?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.help",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "help!",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.help",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what can i do with images?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 19,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "calcel",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want some help",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "can you do image recognition",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 11,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about translation",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for information on facial recognition",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 48
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about speech",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "tell me about the face api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 18,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "can you recognize faces?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 8,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about the face api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "how do i use the face api?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 17,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "where can i get help using the face api?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "can i get help with the face api?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 24,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "is there any documentation on using the face api?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 40,
+          "endPos": 47
+        }
+      ]
+    },
+    {
+      "text": "where is the documentation for the face api?",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 35,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for the face api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about vision",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for the vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 20,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about vision?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i need help with speech",
+      "intent": "services.help",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 17,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for information on computer vision",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "i want to know about the vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 25,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "how does the vision api work?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 13,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "do you have information on computer vision?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "can you show me where to find information on facial recognition?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 45,
+          "endPos": 62
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about the vision api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about facial recognition",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "waht can you tell me about the vision api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "i'd like info on the vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 21,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about face grouping",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about face identification",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "what can you tell em about the face api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for computer vision",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 16,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "id like to know about face identification",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 22,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "i want to know about face identification",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 21,
+          "endPos": 39
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know more about search",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 28,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "show me the knowledge category",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 12,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about the knowledge category",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about the knowledge api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about knowledge",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about speech?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about the computer vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about the computer vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about the computer vision api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for info on image search",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 24,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about the vision category",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about search",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "i'm looking for info on image searches",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 24,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about face identification",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "i want to know about images",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 21,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "i'm interested in facial recognition",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 18,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "i'd like information on the computer vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 28,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "i'm a bit stuck",
+      "intent": "services.help",
+      "entities": []
+    },
+    {
+      "text": "tell me about the speech api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 18,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about comuter vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "i'd like information on the knowledge api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 28,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about image recognition",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 43
+        }
+      ]
+    },
+    {
+      "text": "do you support image recognition?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 15,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "i want to analyse video in realtime",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 10,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about image search",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "tell me aout the speech category",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 17,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "tell me about the vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 18,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "i'd like information on the vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 28,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "i'd like information on the knowlsedge api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 28,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about vision category",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 23,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "what can you tell me about the comuter vision api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 31,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "can you tell me about the bing speech api?",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 26,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "i'd like to know about the computer vision api",
+      "intent": "services.search",
+      "entities": [
+        {
+          "entity": "cognitiveservice.product",
+          "startPos": 27,
+          "endPos": 41
+        }
+      ]
+    }
+  ]
+}
