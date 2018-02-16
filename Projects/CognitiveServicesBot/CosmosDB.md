@@ -18,7 +18,7 @@ For this project we'll be using Cosmos DB for all our data storage.
 ##### 2. Create a Cosmos DB account  
 Create a new account with a unique id, in this case I'll be using _'cogservices'_. Select the _'SQL (DocumentDB)'_ API and if needed create a new Resource Group. Then create the Cosmos DB account.
 
-![](images/1_02_CosmosDB_CreateAccount.png)
+![](images/1_02_2_CosmosDB_CreateAccount.png)
 
 ##### 3. Create a new DB (Document DB SQL)  
 Click on _Add Collection_ to create a new Database
@@ -29,7 +29,7 @@ Click on _Add Collection_ to create a new Database
 - Choose the lowest throughput capacity of 400 (Estimated hourly spend $0.032USD)
 - Set the database field to 'db'
 
-![](images/1_04_CosmosDB_CreateDB.png)
+![](images/1_04_2_CosmosDB_CreateDB.png)
 
 ### Upload JSON data
 

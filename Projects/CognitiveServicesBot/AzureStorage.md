@@ -19,7 +19,7 @@ After authenticating with the Storage Explorer you'll be able to browse to the t
  
 ![](images/3_03_StorageExplorer_Browse.png)
 
-Upload all the images in the `resources\images` folder to the target container, then head back to the Azure portal to verify them.
+Upload all the images in the `Resources\images` folder to the target container, then head back to the Azure portal to verify them.
 
 ![](images/3_04_Storage_Verify.png)
 

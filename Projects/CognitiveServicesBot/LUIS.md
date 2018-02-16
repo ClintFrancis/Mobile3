@@ -22,7 +22,7 @@ The first thing we're going to need to do is create a new LUIS app. To do this y
 
 Give your app a name and if you wish a description. When selecting an API key we're just going to use the `Bootstrap key` that comes with the LUIS app to get started.
 
-![](images/4_01_LUIS_Create.png)
+![](images/4_01_2_LUIS_Create.png)
 
 ##### 2. Add Entities
 
@@ -34,7 +34,9 @@ Let's Create two _Simple_ entities. You can use any string name for these, but f
 
 `congitiveservice.help`
 
-![](images/4_02_LUIS_CreateEntity.png)
+Go to `Build` section and add these entitites.  
+
+![](images/4_02_2_LUIS_CreateEntity.png)
 
 ##### 3. Add Intents
 
@@ -46,36 +48,36 @@ Let's create the two intents Within our LUIS instance. Again, you can use any st
 
 `services.help`
 
-![](images/4_03_LUIS_CreateIntent.png)
+![](images/4_03_2_LUIS_CreateIntent.png)
 
 ##### 4. Add Utterances
 
 For each intent of our intents we need to add some example utterances that trigger this intent. To ensure that our intent gets matched correctly we should include multiple utterance variations. The more relevant and diverse we add to the intent, the better intent prediction we’ll get from the app.
 
-![](images/4_04_LUIS_CreateUtterances.png)
+![](images/4_04_2_LUIS_CreateUtterances.png)
 
 After entering in our utterances we can then identify the entities within the utterance. Simply click on the words within the utterance that you want to mark as being an entity and mark them with the matching entity in the list.
 
-![](images/4_05_LUIS_DefineUtterances.png)
+![](images/4_05_2_LUIS_DefineUtterances.png)
 
-![](images/4_06_LUIS_UtterancesComplete.png)
+![](images/4_06_2_LUIS_UtterancesComplete.png)
 
 Once we've completed entering in our utterances for the `services.search` intent, we also need to repeat this same process for the `services.help` intent as well.
 
 ##### 5. Test and Train your LUIS instance
 Whenever updates are made to the current LUIS model, we'll need to train the app before testing and publishing it. When we 'train' a model, LUIS generalises from the labeled examples, and develops code to recognise relevant intents and entities in the future.
 
-![](images/4_07_LUIS_Train.png)
+Press `Train`  button and wait for some time. LUIS will analyse provided utterances.  
 
 Once our model is trained we can try it out by typing test utterances in the text box to submit them to the app. The results of how the model has interpreted the utterance is displayed below, you're also able to click on previous utterances to review the results.
 
-![](images/4_08_LUIS_Test.png)
+![](images/4_08_2_LUIS_Test.png)
 
 ##### 6. Get the ID and key
 
 The next things we're going to need to do is acquire an Endpoint key for LUIS from the Microsoft Azure portal. It is essential for publishing your app and accessing our HTTP endpoint. This key reflects our quota of endpoint hits based on the usage plan you specified while creating the key. For the purpose of our demo we can use the free pricing tier _F0 (5 calls per second, 10k calls per month)_.
 
-![](images/4_09_Azure_LUISService.png)
+![](images/4_09_2_Azure_LUISService.png)
 
 Once the LUIS keys have been set up, copy the first key to your clipboard and return to your LUIS app.
 
@@ -84,13 +86,13 @@ Once the LUIS keys have been set up, copy the first key to your clipboard and re
 
 ##### 7. Setup Key in LUIS
 
-Add a new key in your LUIS app, paste in your copied key from Azure and give it an appropriate name.
+Head to the _Publish_ tab and add a new key in your LUIS app, paste in your copied key from Azure and give it an appropriate name.  
 
-![](images/4_11_LUIS_AddKey.png)
+![](images/4_11_2_LUIS_AddKey.png)  
 
-![](images/4_12_LUIS_NewKey.png)
+![](images/4_12_2_LUIS_NewKey.png)
 
 ##### 8. Publish your LUIS app
-Once the key is all set up we can publish our LUIS app. Head to the _Publish App_ tab and select your newly created Endpoint Key, then go ahead and hit Publish!
+Once the key is all set up we can publish our LUIS app. While you are on _Publish_ tab you can just hit `Publish to production slot` button. Now your LUIS service is published!  
 
-![](images/4_13_LUIS_PublishApp.png)
+![](images/4_13_2_LUIS_PublishApp.png)
