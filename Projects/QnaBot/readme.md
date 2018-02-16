@@ -31,67 +31,62 @@ We'll be using Azure Bot Service, so you'll need an Azure account. If you don't 
 
 Next, we'll use Azure Bot Service to build our bot.
 
-## Create an Azure Bot Service
+## Create an Azure Web Bot Service
 
-Click [here](https://ms.portal.azure.com/#create/Microsoft.BotApp) to create a new Azure Bot Service resource in the Azure portal  
+Click [here](https://portal.azure.com/#create/Microsoft.BotServiceSdkGalleryPackage) to create a new Azure Web Bot Service resource in the Azure portal  
 
-`App name`: This will be your bot's default name, and the first part of your bot's url  
+`Bot name`: This will be your bot's default name  
 `Subscription`: Choose the subscription you want to use from the drop-down  
 `Resource Group`: Leave "Create new" selected, and leave the value the same as _App name_  
 `Location`: Choose the location that best describes your current location  
-![screenshot](images/qa-bot-sample-27.png)  
-Click **Create** to create and deploy your new Azure Bot Service.
-
-
-## Configure your bot
-
-Once your bot is finished deploying, open it in the Azure portal.  You can click [here](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Web%2Fsites) to see a list of your resources where you'll find your new Azure Bot Service.  
-![screenshot](images/qa-bot-sample-01.png)  
-Click **Create Microsoft App ID and password**  
-![screenshot](images/qa-bot-sample-02.png)  
-##### _This should open a new tab displaying your new App name and App ID. (If you're prompted to login, make sure you login with the same email address you used to create your Microsoft Bot Framework account)._
-
-Next, click **Generate App ID and password** to show a pop-up displaying your new password.  Copy the password to your clipboard and click **Ok**.  
-
-_**Make sure to store the password somewhere safe now as you will not be able to see it again.**_  
-
-Click **Finish and go back to Bot Framework**. This should close the tab and return you to the Azure portal with new App ID already be filled in.  
-![screenshot](images/qa-bot-sample-03.png)  
-**Paste** your new App password into the password field. Then, under **Choose a language**, select the language to write your bot in.  
-##### _Note: I'll be using C#, but you should be able to complete this sample using NodeJS as well._  
-
-Choose the **Question and Answer** template under **Choose a template**, agree to the _Terms of Use, Privacy Statement, and Code of Conduct for the Microsoft Bot Framework (Preview)_, and click **Create bot**.  
-##### _You should be presented with a pop-up dialog to **Connect Azure Bot Service to QnA Maker**.  If not, make sure you're logged in to your QnA Maker account, and you're not blocking the associated cookies_
-![screenshot](images/qa-bot-sample-07.png)  
-Leave (or select) **Create new knowledge base** selected in the drop-down menu and Click **OK**.  You should see a green banner across the top of the Azure portal letting your know your bot is being provisioned.  
-![screenshot](images/qa-bot-sample-08.png)
+`App name`: This will first part of your bot's url endpoint  
+`Bot template`: Select a project template. It will create source code of your bot from SDK template  
+`App service plan/Location`: Select or create a service plan for your bot  
+`Azure Storage`: This storage will be used to store bot state  
+`Microsoft App ID and password`: This data will be used to identify bot app with Microsoft App ID. Keep Auto create  
+![screenshot](images/qa-bot-sample-29.png)  
+![screenshot](images/qa-bot-sample-30.png)  
+Click **Create** to create and deploy your new Azure Web Bot Service.
 
 
 ## Train your QnA service
 
 Now that your bot is set up and pointing to a new QnA service, we'll need to teach the QnA service some, well... questions and answers.
 
-Click [here](https://qnamaker.ai/Home/MyServices) to view a list of your QnA services, and select edit icon next to the service you just created. It'll likely be name something like _"Basic QnA KB-2017-05..."_.  
-![screenshot](images/qa-bot-sample-10.png)  
-On the left hand side of the dashboard, select **Settings**  
-![screenshot](images/qa-bot-sample-12.png)  
-Paste the following urls into the **URLs** section. (_Note: you're free to use any FAQ urls you want, it won't prevent you from completing this sample)_
+Click [here](https://qnamaker.ai/Home/MyServices) to **Create a new service". Paste the following urls into the **URLs** section. (_Note: you're free to use any FAQ urls you want, it won't prevent you from completing this sample)_
 - https://docs.microsoft.com/en-us/bot-framework/resources-bot-framework-faq
 - https://docs.microsoft.com/en-us/bot-framework/troubleshoot-general-problems
 
-![screenshot](images/qa-bot-sample-14.png)  
+![screenshot](images/qa-bot-sample-35.png)  
+After you created a bot you can see the list of found Questions and Answers  
+![screenshot](images/qa-bot-sample-36.png)  
+
 Click **Save and retrain**, then click **Publish**. You'll be presented with a screen showing the changes to your services knowledge base that will be published.  
 ![screenshot](images/qa-bot-sample-16.png)  
 Click **Publish**.  
 
+![screenshot](images/qa-bot-sample-32.png) 
+
+We'll need values of **QnAKnowledgebaseId** and **QnASubscriptionKey** to configure our Web Bot to work with our QnA Service.  
+
+
+## Configure your bot
+
+Once you trained and published your QnA service, you should connect it with your Web Bot.  You can click [here](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.BotService%2FbotServices) to see a list of Bot Services.  
+![screenshot](images/qa-bot-sample-31.png)  
+
+Then you should go to bot's Application Settings and place your **QnAKnowledgebaseId** and **QnASubscriptionKey**  
+![screenshot](images/qa-bot-sample-33.png)  
+
+Click **Save**. Now you have trained and configured Azure Web Bot service with QnA Knowledgebase.
 
 ## Test your bot
 
-Return to your Azure Bot Service in the Azure portal and click **Test** in the top right to open a web chat with your bot.
+Return to your Azure Web Bot in the Azure portal and click **Test in Web Chat**.
 - Type `Hi` in the chat window and press return
 - Type `What's the Direct Line channel?` and press return
 
-![screenshot](images/qa-bot-sample-18.png)  
+![screenshot](images/qa-bot-sample-34.png)  
 
 
 <br/>

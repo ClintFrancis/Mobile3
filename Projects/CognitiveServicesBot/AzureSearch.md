@@ -8,9 +8,9 @@ Create the new Search Service and assign it to the same resource group.
 ##### 2. Import data into the Search Service.
 - Once the Search Service has been created. Click on 'Import Data'.
 
-- When prompted to select a data source choose 'DocumentDB' and select an account select the DocumentDB account we created earlier.
+- When prompted to select a data source choose 'Cosmos DB' and select an account select the DocumentDB account we created earlier.
 
-![](images/2_02_Search_Import.png)
+![](images/2_02_2_Search_Import.png)
 
 ##### Create your Azure Search Index
 Here's where the magic starts to happen. You can see that Azure Search has accessed our data and pulled in each parameter of the `JSON` objects. Now we get to decide which of these parameters we want to search over, facet over, filter by and retrieve. Again we could generate our indices programatically, and in more complex use cases we would, but for the sake of simplicity we'll stick to the portal UI. Given that we want access to all of these properties we'll go ahead and make them all retrievable. We want to be able to facet (more details about faceting to come) and filter over Categories. Finally, we'll mark `name`, `api`, `category` and `description` as searchable so that our bot can search using general terms.

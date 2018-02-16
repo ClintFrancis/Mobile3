@@ -14,7 +14,7 @@ We’ll be using Azure Bot Service, so you’ll need an Azure account. If you do
 
 ### Microsoft Bot Framework
 
-[Create or login](https://dev.botframework.com/login?requestUrl=%2F) to your [Microsoft Bot Framework](https://dev.botframework.com/) account. Even if you already have an account, make sure to login, as it’ll simplify setting up your bot in Azure.
+[Create or login](https://dev.botframework.com/identity/signin?requestUrl=%2F) to your [Microsoft Bot Framework](https://dev.botframework.com/) account. Even if you already have an account, make sure to login, as it’ll simplify setting up your bot in Azure.
 
 # Chapters
 
