@@ -8,7 +8,7 @@ Create the new Search Service and assign it to the same resource group.
 ##### 2. Import data into the Search Service.
 - Once the Search Service has been created. Click on 'Import Data'.
 
-- When prompted to select a data source choose 'Cosmos DB' and select an account select the DocumentDB account we created earlier.
+- When prompted to select a data source choose 'Cosmos DB' and select an account we created earlier.
 
 ![](images/2_02_2_Search_Import.png)
 
