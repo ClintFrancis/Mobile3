@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xamarinBotForms="clr-namespace:XamarinBotForms;assembly=XamarinBotForms"
+             x:Class="XamarinBotForms.MainPage">
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<DataTemplate x:Key="InputMessageTemplate">
+				<ViewCell IsEnabled="false">
+					<ViewCell.View>
+						<StackLayout Orientation="Horizontal" Padding="10">
+							<Frame BackgroundColor="DarkBlue" Padding="10" CornerRadius="16" Margin="0,0,40,0">
+								<Label Text="{Binding Text}" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White"/>
+							</Frame>
+						</StackLayout>
+					</ViewCell.View>
+				</ViewCell>
+			</DataTemplate>
+			<DataTemplate x:Key="OutputMessageTemplate">
+				<ViewCell IsEnabled="false">
+					<ViewCell.View>
+						<StackLayout Orientation="Horizontal" Padding="10">
+							<Frame BackgroundColor="Gray" Padding="10" CornerRadius="16" Margin="40,0,0,0" HorizontalOptions="EndAndExpand">
+								<Label Text="{Binding Text}" VerticalOptions="Center" HorizontalOptions="End" TextColor="White"/>
+							</Frame>
+						</StackLayout>
+					</ViewCell.View>
+				</ViewCell>
+			</DataTemplate>
+			<xamarinBotForms:MessageTemplateSelector x:Key="MessageTemplateSelector" InputMessageTemplate="{StaticResource InputMessageTemplate}" OutputMessageTemplate="{StaticResource OutputMessageTemplate}"/>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+	
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="48"/>
+		</Grid.RowDefinitions>
+		<ListView SeparatorVisibility="None"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HasUnevenRows="True" 
+					ItemTemplate="{StaticResource MessageTemplateSelector}" x:Name="MessagesListView" Grid.Row="0"/>
+		<StackLayout Orientation="Horizontal" Padding="4" Spacing="10" HorizontalOptions="FillAndExpand" Grid.Row="1">
+			<Entry HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="OutputMessageEntry" Text="NOT CONNECTED" 
+					IsEnabled="False" Completed="SendButtonOnClicked"/>
+			<Button VerticalOptions="FillAndExpand" HorizontalOptions="End" WidthRequest="160" MinimumWidthRequest="140" Text="Connect" 
+					BackgroundColor="DarkGreen" x:Name="SendButton" Clicked="SendButtonOnClicked" TextColor="White"/>
+		</StackLayout>
+	</Grid>
+</ContentPage>
