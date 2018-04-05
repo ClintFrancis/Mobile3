@@ -21,7 +21,7 @@ For this project we'll be need to create a new Face API account to get our uniqu
 
 Create a new Function App with a unique id, in this case I'll be using _'customerrecognitionapp'_. We'll use our existing Resource Group and create a new Storage instance for hosting the scripts we'll add later.
 
-/images/5_02_Function_App_Create.png
+![](images/5_02_Function_App_Create.png)
 
 ## To Be Continued
 

@@ -32,7 +32,7 @@ Add the function keys after `?code=` e.g:
 
 You can find each of the Api keys in the Azure functions app under **FunctionName** \ **Manage**.
 
-/images/7_01_Mobile_FunctionUrls.png
+![](images/7_01_Mobile_FunctionUrls.png)
 
 Once the keys are all updated, the app should be successfully connected to your Azure functions app.
 

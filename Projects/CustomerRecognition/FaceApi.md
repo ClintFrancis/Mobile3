@@ -40,14 +40,14 @@ For this project we'll be need to create a new Face API account to get our uniqu
 
 ##### 1. Navigate to Face API in the Azure Portal
 
-/images/4_01_Face_API.png
+![](images/4_01_Face_API.png)
 
 ##### 2. Create a Face API account  
 Create a new account with a unique id, in this case I'll be using _'customerrecognitionfaceapi'_. Select the _'F0'_ pricing tier and select our existing customer recognition Resource Group, then create the Face API account.
 
-/images/4_02_Face_API_Register.png
+![](images/4_02_Face_API_Register.png)
 
 ##### 3. Copy the API keys  
 
 Once the service has been created, navigate to Resource Management > Keys and make a note of _Key 1_
-/images/4_03_Face_API_Keys.png
+![](images/4_03_Face_API_Keys.png)

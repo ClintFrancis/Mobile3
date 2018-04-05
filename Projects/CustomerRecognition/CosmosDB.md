@@ -11,21 +11,21 @@ For this project we'll be using Cosmos DB for all our data storage (Orders and C
 
 [https://azure.microsoft.com/en-gb/services/cosmos-db/](https://azure.microsoft.com/en-gb/services/cosmos-db/)
 
-/images/1_01_CosmosDB_Portal.png
+![](images/1_01_CosmosDB_Portal.png)
 
 ### 2. Create a Cosmos DB account  
 Create a new account with a unique id, in this case I'll be using _'customerrecognition'_. Select the _'SQL'_ API and if needed create a new Resource Group. Then create the Cosmos DB account.
 
-/images/1_02_CosmosDB_CreateAccount.png 
+![](images/1_02_CosmosDB_CreateAccount.png)
 
 ### 3. Create a new Databases (SQL)  
 Click on _Add Collection_ to create a new Database
-/images/1_03_CosmosDB_Landing.png
+![](images/1_03_CosmosDB_Landing.png)
 
 - Set a fixed storage capacity of 10GB
 - Choose the lowest throughput capacity of 400 (Estimated hourly spend $0.032USD)
 - Set the database id field to 'db'
 - Set the collection id field to 'orders'
 - Add another new collection to the 'db' database named 'customers'.
-/images/1_04_CosmosDB_CreateDB.png
 
+![](images/1_04_CosmosDB_CreateDB.png)

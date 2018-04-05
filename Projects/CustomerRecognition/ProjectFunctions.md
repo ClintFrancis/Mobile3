@@ -23,14 +23,14 @@ Navigate to your Face Api account, from here you can find the values we need:
 
 You can find the key for your account under "_Resource Management > Keys_". Copy Key 1 and set it as the `FaceApiKey` variable.
 
-/images/6_01_Functions_Face1.png
+![](images/6_01_Functions_Face1.png)
 
 
 ####	*FaceApiRegion*
 
 You can find the url for your `FaceApiRegion` under "_Overview > Endpoint_". Copy it and set it as the `FaceApiRegion` variable.
 
-/images/6_02_Functions_Face2.png
+![](images/6_02_Functions_Face2.png)
 
 
 ### Azure Storage
@@ -41,7 +41,7 @@ Navigate to your Azure Storage account, from here you can find the value we need
 
 You can find the Connection String under "_Settings > Access keys_". Copy it and set it as the `StorageConnectionString` variable.
 
-/images/6_03_Functions_Storage1.png
+![](images/6_03_Functions_Storage1.png)
 
 ### Cosmos DB
 
@@ -51,13 +51,13 @@ Navigate to your CosmosBD account, from here you can find the values we need:
 
 You can find the Uri under "_Settings > Keys_". Copy it and set it as the `DocumentEndpointUri` variable.
 	
-/images/6_04_Functions_Cosmos1.png
+![](images/6_04_Functions_Cosmos1.png)
 
 #### *DocumentAuthKey*
 
 You can find the Primary Key under "_Settings > Keys_". Copy it and set it as the `DocumentAuthKey` variable.
 
-/images/6_05_Functions_Cosmos2.png
+![](images/6_05_Functions_Cosmos2.png)
 
 ## Testing Locally
 
@@ -79,7 +79,7 @@ The collection of test calls for this demo is included in the repository at:
 Once the environmental variables have been configured, we'll use Postman to test the project locally before publishing it to Azure. Make sure the the functions solution is set as the startup project and build it.
 
 You will see a window displaying the `localhost` output:
-/images/6_06_Functions_Prompt.png
+![](images/6_06_Functions_Prompt.png)
 
 <br/>
 Once you have your `localhost` successfully running, open Postman and load the customer recognition collection included in the resources folder.
