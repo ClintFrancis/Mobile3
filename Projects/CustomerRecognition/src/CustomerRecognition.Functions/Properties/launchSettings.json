@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Customer.Functions": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "FaceApiKey": "YOUR_VALUE_HERE",
+        "StorageConnectionString": "YOUR_VALUE_HERE",
+        "DocumentEndpointUri": "YOUR_VALUE_HERE",
+        "FaceApiRegion": "YOUR_VALUE_HERE",
+        "DocumentAuthKey": "YOUR_VALUE_HERE"
+      }
+    }
+  }
+}

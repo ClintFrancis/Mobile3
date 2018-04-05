@@ -1,0 +1,2 @@
+MainPackage=C:\Projects\CustomerRecognitionDemo\CustomerRecognition.UWP\bin\ARM\Release\CustomerRecognition.UWP_1.0.0.0_ARM.appx
+SymbolPackage=C:\Temp\App Packages\CustomerRecognition.UWP_1.0.0.0_Test\CustomerRecognition.UWP_1.0.0.0_ARM.appxsym

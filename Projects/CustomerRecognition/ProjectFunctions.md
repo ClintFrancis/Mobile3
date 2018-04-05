@@ -94,7 +94,7 @@ The first step is to identify a new customer as we don't have registered custome
 
 Postman will display the JSON returned from the Api call in the bottom half of the screen. We're going to need two values from this return; FaceId and ImageUrl.
 
-/images/6_07_Functions_Postman1.png
+![](images/6_07_Functions_Postman1.png)
 
 ##### 3. Select _Create Order_
 
