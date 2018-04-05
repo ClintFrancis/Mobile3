@@ -15,7 +15,7 @@ For this project we'll be need to create a new Face API account to get our uniqu
 
 ### 1. Navigate to Function App in the Azure Portal
 
-/images/5_01_Function_App.png
+![](images/5_01_Function_App.png)
 
 ### 2. Create a Function App 
 
